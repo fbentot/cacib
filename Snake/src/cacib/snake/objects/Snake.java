@@ -48,6 +48,8 @@ public class Snake {
 
 			positionsOccupees.put(i, list);
 		}
+		
+		System.out.println(("Position initiale de la tête : (x=" + (snakeLength-1) + ", y=0)"));
 	}
 
 	// Seule la tête bouge, le corps suit
